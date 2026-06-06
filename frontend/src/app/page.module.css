@@ -1,0 +1,16 @@
+.pageHeader {
+  margin-bottom: 18px;
+}
+
+.pageHeader h1 {
+  margin: 0;
+  color: #111827;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.pageHeader p {
+  margin: 8px 0 0;
+  color: var(--muted-text);
+  font-size: 15px;
+}

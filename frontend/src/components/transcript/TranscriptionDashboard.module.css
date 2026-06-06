@@ -1,0 +1,23 @@
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: 420px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.errorBanner {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  color: #991b1b;
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .dashboardGrid {
+    grid-template-columns: 1fr;
+  }
+}

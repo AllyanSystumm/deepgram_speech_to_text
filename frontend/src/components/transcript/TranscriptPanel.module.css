@@ -1,0 +1,48 @@
+.transcriptPanel {
+  min-height: 520px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.panelHeader {
+  min-height: 58px;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.panelHeader h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 22px;
+}
+
+.statusBadge {
+  padding: 6px 12px;
+  color: #1f2937;
+  background: #f3f4f6;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.transcriptBody {
+  padding: 28px 28px 32px;
+}
+
+.emptyState {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 16px;
+}
+
+.transcriptText {
+  margin: 0;
+  color: #111827;
+  font-size: 20px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+}

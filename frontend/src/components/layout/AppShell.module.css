@@ -1,0 +1,86 @@
+.appShell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+}
+
+.header {
+  height: 72px;
+  padding: 0 96px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  background: linear-gradient(180deg, #111827 0%, #0f172a 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.brandPrimary {
+  color: #3b82f6;
+}
+
+.brandSecondary {
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 100%;
+}
+
+.navLink {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  color: #d1d5db;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
+}
+
+.navLink:hover {
+  color: #ffffff;
+  border-bottom-color: #3b82f6;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px 96px 32px;
+}
+
+.footer {
+  max-width: 1440px;
+  width: calc(100% - 192px);
+  margin: 0 auto;
+  padding: 20px 0;
+  color: var(--muted-text);
+  font-size: 14px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding: 0 24px;
+  }
+
+  .main {
+    padding: 32px 24px;
+  }
+
+  .footer {
+    width: calc(100% - 48px);
+  }
+}

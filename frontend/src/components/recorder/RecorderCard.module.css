@@ -1,0 +1,107 @@
+.recorderCard {
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+}
+
+.recordingStatus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #111827;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.statusDot {
+  width: 11px;
+  height: 11px;
+  border-radius: 999px;
+  background: #22c55e;
+}
+
+.statusDotActive {
+  width: 11px;
+  height: 11px;
+  border-radius: 999px;
+  background: #ef4444;
+  box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.16);
+}
+
+
+
+.timer {
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.micWrapper {
+  min-height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.micButton {
+  width: 146px;
+  height: 146px;
+  border: 8px solid #fb7185;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 70% 35%, rgba(59, 130, 246, 0.35), transparent 28%),
+    #0f172a;
+  color: #fb7185;
+  font-size: 54px;
+  box-shadow:
+    0 0 0 14px rgba(244, 63, 94, 0.14),
+    0 0 38px rgba(244, 63, 94, 0.38);
+}
+
+.micButton:hover {
+  transform: scale(1.02);
+}
+
+.recordingText {
+  margin: 0 0 24px;
+  color: #111827;
+  font-size: 18px;
+  text-align: center;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.label {
+  color: #111827;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.select {
+  height: 46px;
+  padding: 0 14px;
+  color: #111827;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+
+.transcribeAction {
+  margin-bottom: 22px;
+}
+
+.transcribeAction button {
+  width: 100%;
+}
