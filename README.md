@@ -16,7 +16,7 @@ Key features:
 Stack:
 - Frontend: Next.js, React, TypeScript
 - Backend: Django, Django REST Framework, Python
-- Database: SQLite for development (Postgres for production)
+- Database: PostgreSQL
 - Transcription: Deepgram API
 
 Prerequisites:
