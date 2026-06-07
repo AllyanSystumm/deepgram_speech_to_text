@@ -43,5 +43,6 @@ nvm use --lts   # optional
 npm install
 npm run dev
 ```
+<img width="1851" height="1003" alt="Screenshot from 2026-06-07 15-36-22" src="https://github.com/user-attachments/assets/a89bae9e-6655-4273-b25c-a7b0cec77fad" />
 
 
